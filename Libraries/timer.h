@@ -5,10 +5,7 @@
 #include <stm32f10x_gpio.h>
 #include <stm32f10x_tim.h>
 
-void timer2_init(uint16_t tau, uint16_t T);
-
-void timer2_start(void);
-void timer2_stop(void);
+void timer_init(uint16_t tau, uint16_t T);
 
 extern void (*HighFunction)();
 extern void (*LowFunction)();
